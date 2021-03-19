@@ -6,25 +6,25 @@ header {
 	background-color: #7296B4;
 	top: 0;
 	z-index: 1000;
-	padding: 15px 0 8px 0;
+	padding: 0px 0 8px 0;
 }
 .name {
-	width: 450px;
+	width: 500px;
 	height: 90px;
+	color: white;
 	float: left;
 	display: block;
-	margin-top: 15px;
-	background: url("../images/name.svg") no-repeat;
-	
+}
+
+.name h2 {
+	font-size: 30px;
 }
 
 
 
-nav { 
-    
+nav {  
 	float: right;
-	
-	
+	line-height: 60px;	
 }
 
 nav ul {
